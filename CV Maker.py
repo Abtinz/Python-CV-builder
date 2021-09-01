@@ -349,7 +349,7 @@ def careerEdit() :
    print("3) Remove skills")
    print("4) Exit")
    choice = input()
-   if choice == "1" : editcareer()
+   if choice == "1" : editCareer()
    elif choice == "2" : editCareer()
    elif choice == "3" : removeCareer()
    elif choice == "4" :  editInformations()
@@ -367,14 +367,14 @@ def editCareer() :
      choise-=1
      print(f"pleas enter your new text : \n previous career text : {careerInformation[choise]}")
      careerInformation[choise] = input()
-     print(f"new text : {carreerInformation[choise]}")
+     print(f"new text : {careerInformation[choise]}")
      print("1) Edit an other Skill") 
      print("Else keybord : Exit") 
      choice = input()
      if choice == "1" : editCareer()
      else : careerEdit()
 
-def removeCarrer() :
+def removeCareer() :
      print("---------------------------------------")
      print("\n"+"Career informations :")
      n=1   
